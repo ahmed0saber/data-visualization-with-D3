@@ -1,1 +1,1 @@
-### Chart Projects
+### Chart.js Projects
