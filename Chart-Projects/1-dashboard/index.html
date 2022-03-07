@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="sidebar">
+        <div class="logo">
+            <h2>Dashboard</h2>
+        </div>
+        <div class="side-nav">
+            <div>
+                <div class="list-item">
+                    <i class="fa fa-home"></i>
+                    <p>Dashboard</p>
+                    <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="list-item">
+                    <p>Classic</p>
+                </div>
+                <div class="list-item">
+                    <p>Minimal</p>
+                </div>
+            </div>
+            <div class="list-item">
+                <i class="fa fa-pager"></i>
+                <p>Pages</p>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="list-item">
+                <i class="fa fa-border-all"></i>
+                <p>Applications</p>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="list-item">
+                <i class="fa fa-palette"></i>
+                <p>UI Componeent</p>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="list-item">
+                <i class="fa fa-palette"></i>
+                <p>Widgets</p>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="list-item">
+                <i class="fa fa-wpforms"></i>
+                <p>Forms</p>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="list-item">
+                <i class="fa fa-chart-area"></i>
+                <p>Charts</p>
+                <i class="fa fa-angle-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <nav>
+            <div class="form">
+                <input type="text" placeholder="Search here...">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="icons">
+                <p><i class="fa fa-bell"></i></p>
+                <p><i class="fa fa-comment"></i></p>
+                <img src="./Ahmed Saber Fathy.jpg">
+            </div>
+        </nav>
+        <article>
+            <section class="cards">
+                <div class="card">
+                    <h3>Total Income</h3>
+                    <h1>$579,000</h1>
+                    <p>Saved 25%</p>
+                </div>
+                <div class="card">
+                    <h3>Total Expences</h3>
+                    <h1>$79,000</h1>
+                    <p>Saved 25%</p>
+                </div>
+                <div class="card">
+                    <h3>Cash on Hand</h3>
+                    <h1>$92,000</h1>
+                    <p>Saved 25%</p>
+                </div>
+                <div class="card">
+                    <h3>Net Profit Margin</h3>
+                    <h1>$179,000</h1>
+                    <p>Saved 65%</p>
+                </div>
+            </section>
+            <section class="graph">
+                <canvas id="myChart"></canvas>
+                
+            </section>
+        </article>
+    </main>
+
+    <i class="fa fa-angle-right toggle-side"></i>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/282bcf757e.js" crossorigin="anonymous"></script>
+</html>
